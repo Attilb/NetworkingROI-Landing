@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="hu" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NetworkROI | Networking megtérülés, végre mérhetően</title>
+  <meta name="description" content="A NetworkROI összeköti a CRM-edet az eseményrészvételi adatokkal, és pontosan megmutatja, mely konferenciák, meetupok és networking estek termelnek üzletet – és melyek égetik a költségkeretedet.">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.9/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="bg-slate-50 text-slate-900">
+  <!-- HEADER / HERO -->
+  <header class="bg-gradient-to-b from-slate-900 to-slate-800 text-white pb-20">
+    <div class="max-w-6xl mx-auto px-4 pt-8 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="h-10 w-10 rounded-xl bg-lime-400/90 flex items-center justify-center shadow-lg shadow-lime-500/40 ring-2 ring-white/20">
+          <span class="font-bold text-slate-900 text-lg">NR</span>
+        </div>
+        <span class="text-xl font-semibold tracking-tight">NetworkROI</span>
+      </div>
+      <nav class="hidden md:flex items-center gap-6 text-sm text-white/80">
+        <a href="#how" class="hover:text-white transition">Hogyan működik?</a>
+        <a href="#who" class="hover:text-white transition">Kinek való?</a>
+        <a href="#pricing" class="hover:text-white transition">Árazás</a>
+        <a href="#faq" class="hover:text-white transition">GYIK</a>
+      </nav>
+      <a href="#pricing" class="hidden md:inline-flex px-4 py-2 rounded-lg bg-white text-slate-900 font-semibold shadow hover:-translate-y-0.5 transition-transform">
+        Árak
+      </a>
+    </div>
+
+    <div class="max-w-6xl mx-auto px-4 pt-16 grid lg:grid-cols-2 gap-12 items-center">
+      <!-- HERO LEFT -->
+      <div class="space-y-6">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-white/80 text-xs ring-1 ring-white/20">
+          <span class="h-2 w-2 rounded-full bg-lime-400 animate-pulse"></span>
+          <span>Early access lista nyitva</span>
+        </div>
+        <h1 class="text-4xl md:text-5xl font-bold leading-tight text-white">
+          Tudd meg végre, melyik networking esemény hoz bevételt.
+        </h1>
+        <p class="text-lg text-white/80 leading-relaxed">
+          A NetworkROI összeköti a CRM-edet az eseményrészvételi adatokkal, és pontosan megmutatja, mely konferenciák, meetupok és networking estek termelnek üzletet – és melyek égetik a költségkeretedet.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-3">
+          <a href="#pricing" class="btn-primary">Kérem az early access-t!</a>
+          <a href="#how" class="btn-secondary">Mutasd a demo dashboardot</a>
+        </div>
+        <div class="flex flex-wrap items-center gap-4 text-sm text-white/70">
+          <div class="flex items-center gap-2">
+            <span class="inline-flex h-6 w-6 items-center justify-center rounded-full bg-white/10 text-lime-300">✓</span>
+            <span>5 perces bevezetés</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="inline-flex h-6 w-6 items-center justify-center rounded-full bg-white/10 text-lime-300">✓</span>
+            <span>HubSpot & Salesforce integráció</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="inline-flex h-6 w-6 items-center justify-center rounded-full bg-white/10 text-lime-300">✓</span>
+            <span>ROI dashboard valós időben</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- HERO RIGHT -->
+      <div class="relative">
+        <div class="glass-card">
+          <div class="flex items-center justify-between mb-6">
+            <div>
+              <p class="text-sm text-white/60">Aktív kampány</p>
+              <p class="text-2xl font-semibold">Budapest Tech Meetup</p>
+            </div>
+            <span class="px-3 py-1 rounded-full bg-lime-300/20 text-lime-200 text-xs font-semibold">+142% ROI</span>
+          </div>
+
+          <div class="grid grid-cols-2 gap-4 mb-6 text-sm">
+            <div class="stat-card">
+              <p class="text-white/60">Leadek</p>
+              <p class="text-2xl font-bold text-white">84</p>
+              <p class="text-xs text-lime-200">+26% vs. múlt hónap</p>
+            </div>
+            <div class="stat-card">
+              <p class="text-white/60">Pipeline érték</p>
+              <p class="text-2xl font-bold text-white">€128k</p>
+              <p class="text-xs text-lime-200">+18% konverzió</p>
+            </div>
+          </div>
+
+          <div class="space-y-3">
+            <div class="flex items-center justify-between">
+              <span class="text-sm text-white/70">Konferencia ROI</span>
+              <span class="text-sm font-semibold text-lime-200">+221%</span>
+            </div>
+            <div class="w-full h-2 bg-white/10 rounded-full overflow-hidden">
+              <div class="h-full bg-lime-300" style="width:80%"></div>
+            </div>
+            <div class="flex items-center justify-between">
+              <span class="text-sm text-white/70">Meetup ROI</span>
+              <span class="text-sm font-semibold text-lime-200">+88%</span>
+            </div>
+            <div class="w-full h-2 bg-white/10 rounded-full overflow-hidden">
+              <div class="h-full bg-lime-300/80" style="width:55%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN SECTIONS -->
+  <main class="py-16 space-y-20">
+
+    <!-- HOW IT WORKS -->
+    <section id="how" class="max-w-6xl mx-auto px-4">
+      <div class="section-heading">
+        <p class="eyebrow">Hogyan működik?</p>
+        <h2 class="section-title">3 lépés, hogy végre számokkal lásd a networkinget</h2>
+        <p class="section-subtitle">
+          Nincs többé excel a névjegykártyákkal. Automatikus adatfolyam és azonnali eredmények.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="card">
+          <div class="card-icon">1</div>
+          <h3 class="card-title">Csatlakoztasd a CRM-et</h3>
+          <p class="card-text">
+            HubSpot, Salesforce vagy Pipedrive összekötés 5 perc alatt – API kulcs vagy OAuth belépéssel.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-icon">2</div>
+          <h3 class="card-title">Importáld az eseménylistát</h3>
+          <p class="card-text">
+            Kalender export, Eventbrite, Meetup vagy egyszerű CSV – mi automatikusan párosítjuk a résztvevőket a kontaktokkal.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-icon">3</div>
+          <h3 class="card-title">Lásd a megtérülést</h3>
+          <p class="card-text">
+            Dashboard, ami megmutatja eseményenként a pipeline értéket, a lezárt ügyeket és a CAC/ROI mutatókat.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHO IS IT FOR -->
+    <section id="who" class="bg-white py-16">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="section-heading">
+          <p class="eyebrow">Kinek való?</p>
+          <h2 class="section-title">Azoknak, akik nem szeretnének vakon költeni eseményekre</h2>
+          <p class="section-subtitle">
+            B2B csapatoknak, ahol fontos a pipeline-minőség és a pénzügyi fegyelem.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-4 gap-6">
+          <div class="card h-full">
+            <h3 class="card-title">Marketing vezetők</h3>
+            <p class="card-text">
+              Ahol az offline csatornák költségét is ugyanúgy kell igazolni, mint a performance kampányokét.
+            </p>
+          </div>
+          <div class="card h-full">
+            <h3 class="card-title">Sales operáció</h3>
+            <p class="card-text">
+              Akik látni akarják, mely eventek hoznak kvalifikált leadet és gyors zárást.
+            </p>
+          </div>
+          <div class="card h-full">
+            <h3 class="card-title">Founderek / CFO-k</h3>
+            <p class="card-text">
+              Transzparens ROI, könnyen védhető budget-döntések, és kevesebb kidobott utazási költség.
+            </p>
+          </div>
+          <div class="card h-full">
+            <h3 class="card-title">Event menedzserek</h3>
+            <p class="card-text">
+              Visszajelzés arról, melyik konferenciára érdemes visszamenni – és melyiket érdemes kihagyni.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section id="pricing" class="max-w-6xl mx-auto px-4">
+      <div class="section-heading">
+        <p class="eyebrow">Árazás</p>
+        <h2 class="section-title">Egyszerű csomagok, világos ROI</h2>
+        <p class="section-subtitle">
+          Minden csomag tartalmazza a valós idejű dashboardot és a CRM integrációt.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <!-- Starter -->
+        <div class="card h-full flex flex-col border-2 border-transparent hover:border-lime-300 transition">
+          <p class="text-sm font-semibold text-slate-500 mb-2">Starter</p>
+          <p class="text-4xl font-bold text-slate-900">
+            €49<span class="text-base font-medium text-slate-500">/hó</span>
+          </p>
+          <p class="text-sm text-slate-600 mb-6">Induló csapatoknak az első mérésekhez.</p>
+          <ul class="space-y-2 text-sm text-slate-700 flex-1">
+            <li>• 2 integráció</li>
+            <li>• 3 aktív esemény</li>
+            <li>• Alap ROI riportok</li>
+          </ul>
+          <a class="btn-outline mt-6" href="#">Kérem</a>
+        </div>
+
+        <!-- Growth -->
+        <div class="card h-full flex flex-col border-2 border-lime-300 shadow-lg shadow-lime-300/20 relative">
+          <span class="absolute -top-3 right-4 px-3 py-1 text-xs rounded-full bg-slate-900 text-white">
+            Legnépszerűbb
+          </span>
+          <p class="text-sm font-semibold text-slate-500 mb-2">Growth</p>
+          <p class="text-4xl font-bold text-slate-900">
+            €129<span class="text-base font-medium text-slate-500">/hó</span>
+          </p>
+          <p class="text-sm text-slate-600 mb-6">
+            Scaling csapatoknak, ahol fontos a pipeline minőség.
+          </p>
+          <ul class="space-y-2 text-sm text-slate-700 flex-1">
+            <li>• 5 integráció</li>
+            <li>• Korlátlan esemény</li>
+            <li>• ROI + CAC elemzés</li>
+            <li>• Email értesítések</li>
+          </ul>
+          <a class="btn-primary mt-6" href="#">Indítás</a>
+        </div>
+
+        <!-- Enterprise -->
+        <div class="card h-full flex flex-col border-2 border-transparent hover:border-lime-300 transition">
+          <p class="text-sm font-semibold text-slate-500 mb-2">Enterprise</p>
+          <p class="text-4xl font-bold text-slate-900">Egyedi</p>
+          <p class="text-sm text-slate-600 mb-6">
+            Több régió, komplex sales ops és dedikált SLA.
+          </p>
+          <ul class="space-y-2 text-sm text-slate-700 flex-1">
+            <li>• SSO és jogosultságkezelés</li>
+            <li>• Ügyfélsiker csapat</li>
+            <li>• Egyedi integrációk</li>
+            <li>• CFO-ready riportok</li>
+          </ul>
+          <a class="btn-outline mt-6" href="#">Kapcsolatfelvétel</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="bg-white py-16">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="section-heading">
+          <p class="eyebrow">GYIK</p>
+          <h2 class="section-title">Gyakori kérdések</h2>
+          <p class="section-subtitle">
+            Ha hiányzik valami, írj nekünk, és 24 órán belül válaszolunk.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-4">
+          <div class="faq-card">
+            <h3 class="faq-title">Milyen CRM-ekkel működik?</h3>
+            <p class="faq-text">
+              HubSpot, Salesforce, Pipedrive, Zoho – és webhookon keresztül bármilyen egyedi rendszerrel.
+            </p>
+          </div>
+          <div class="faq-card">
+            <h3 class="faq-title">Mennyi idő a bevezetés?</h3>
+            <p class="faq-text">
+              Az alap integráció 5–10 perc, enterprise SSO és egyedi adatforrás esetén 1–2 hét.
+            </p>
+          </div>
+          <div class="faq-card">
+            <h3 class="faq-title">Biztonságban vannak az adatok?</h3>
+            <p class="faq-text">
+              Igen. SOC2 alapelvek szerint építünk, és minden adat átvitel és tárolás közben is titkosított.
+            </p>
+          </div>
+          <div class="faq-card">
+            <h3 class="faq-title">Kapok onboarding segítséget?</h3>
+            <p class="faq-text">
+              Growth csomagtól dedikált csapattal támogatjuk az indulást, videós walkthrough-val és best practicekkel.
+            </p>
+          </div>
+          <div class="faq-card">
+            <h3 class="faq-title">Hogy számoljátok az ROI-t?</h3>
+            <p class="faq-text">
+              A CRM deal adataiból és a hozzárendelt eseményköltségekből számoljuk a pipeline érték, megnyert üzlet és CAC mutatókat.
+            </p>
+          </div>
+          <div class="faq-card">
+            <h3 class="faq-title">Van ingyenes próbaverzió?</h3>
+            <p class="faq-text">
+              Igen, 14 napos próba, amivel az első eseményeket már valós adatokkal követheted.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-slate-900 text-white py-10">
+    <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row md:items-center justify-between gap-4">
+      <div class="space-y-2">
+        <p class="font-semibold">NetworkROI</p>
+        <p class="text-sm text-white/70">Méri, melyik networking csatorna hoz bevételt.</p>
+      </div>
+      <div class="flex items-center gap-4 text-sm text-white/80">
+        <a href="#" class="hover:text-white transition">Adatkezelés</a>
+        <a href="#" class="hover:text-white transition">Impresszum</a>
+        <a href="#" class="hover:text-white transition">Support</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
